@@ -1,0 +1,13 @@
+h1,
+p {
+  text-align: center;
+}
+body {
+  background-color: cornflowerblue;
+}
+.menu {
+  width: 80%;
+  background-color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+}
