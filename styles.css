@@ -1,13 +1,30 @@
-h1,
-p {
-  text-align: center;
+.header {
+  background-color: lightgray;
+  height: 40px;
 }
-body {
-  background-image: linear-gradient(#9966ff, #ff6600);
+
+.personal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-.menu {
-  width: 80%;
-  background-color: skyblue;
-  margin-left: auto;
-  margin-right: auto;
+
+.first-photo {
+  background-color: lightblue;
+}
+
+.first-description {
+  background-color: lightgreen;
+}
+
+.second-description {
+  background-color: yellow;
+}
+
+.second-photo {
+  background-color: orange;
+}
+
+.project-list {
+  background-color: lightcoral;
 }
