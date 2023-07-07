@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Mario Knaus</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <!-- Sidebar Sections -->
-  <aside>
-    <nav>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#pictures">Pictures</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </aside>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mario Knaus</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Mario Knaus</h1>
+    </header>
 
-  <!-- About Me Section -->
-  <section id="about-me">
-    <img src="/images/blurry-profile-pic.jpg" alt="Profile Picture">
-    <h1>Mario Knaus</h1>
-    <p>
-      lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a 
-      diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac 
-      quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
-    </p>
-</body>
+    <!-- Main Content -->
+    <main>
+      <!-- Sidebar Sections -->
+      <aside>
+        <!-- Navigation -->
+        <nav>
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- About Me Section -->
+      <section class="about-me">
+        <div>
+          <h1 class="my-title">About Me</h1>
+          <p class="my-description">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac
+            quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
+            Praesent et diam eget libero egestas mattis sit amet vitae augue.
+            Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec
+            ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Aenean ut gravida
+            lorem.
+          </p>
+        </div>
+        <img
+          class="profile-picture"
+          src="/images/blurry-profile-pic.jpg"
+          alt="Profile Picture"
+        />
+      </section>
+    </main>
+  </body>
 </html>

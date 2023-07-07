@@ -1,0 +1,27 @@
+.about-me {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 100px;
+}
+
+.my-title {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: pink;
+}
+
+.my-description {
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    background-color: pink;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 30px;
+}
