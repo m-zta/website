@@ -1,17 +1,4 @@
-p {
-    font-family: "Roboto", sans-serif;
-    font-size: 26px;
-    margin-bottom: 0px;
-  }
-  
-  body {
-    margin: 0px;
-    padding-top: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-  }
+body {
+  color: white;
+  background-color: rgb(42, 49, 65);
+}
