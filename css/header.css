@@ -4,7 +4,7 @@ header {
   margin-bottom: 20px;
   margin: 0;
   padding: 0;
-  height: 100px;
+  min-height: 100px;
 }
 
 .wide-container {
@@ -15,12 +15,11 @@ header {
   align-items: center;
   margin: 0 100px;
   padding: 0 20px;
-  max-width: 1300px;
-  height: 100px;
+  max-width: 1500px;
+  min-height: 100px;
 }
 
 .site-title {
-  color: aquamarine;
   margin: 0;
   padding: 0;
 }
@@ -61,4 +60,12 @@ header {
 .contact-container:hover {
   background-color: aquamarine;
   color: rgb(42, 49, 65);
+}
+
+.long-bar {
+  margin: 0 100px;
+  padding: 0;
+  background-color: aquamarine;
+  height: 10px;
+  border-radius: 5px;
 }
