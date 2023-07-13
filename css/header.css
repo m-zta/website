@@ -1,31 +1,64 @@
 header {
-    box-sizing: content-box;
-    display: block;
-    margin-bottom: 20px;
+  box-sizing: content-box;
+  display: block;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  height: 100px;
 }
 
 .wide-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 120px;
-    padding: 0 30px;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin: 0 100px;
+  padding: 0 20px;
+  max-width: 1300px;
+  height: 100px;
 }
 
 .site-title {
-    color: aquamarine;
+  color: aquamarine;
+  margin: 0;
+  padding: 0;
 }
 
-/* .header-nav {
-    //
-} */
+.header-nav {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
 
 .menu {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-/* .menu-item {
-    // display: inline;
-} */
+.menu-item {
+  display: inline;
+  margin: 0 10px;
+  padding: 0 15px;
+  border-radius: 15px;
+}
+
+.menu-item:hover {
+  background-color: aquamarine;
+  color: rgb(42, 49, 65);
+}
+
+.contact-container {
+  margin: 0;
+  padding: 0 15px;
+  border-radius: 15px;
+}
+
+.contact-container:hover {
+  background-color: aquamarine;
+  color: rgb(42, 49, 65);
+}
