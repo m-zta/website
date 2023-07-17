@@ -1,4 +1,5 @@
 header {
+  background-color: rgb(67, 100, 116);
   box-sizing: content-box;
   display: block;
   margin-bottom: 20px;
@@ -15,21 +16,32 @@ header {
   align-items: center;
   margin: 0 100px;
   padding: 0 20px;
-  max-width: 1500px;
   min-height: 100px;
 }
 
-.site-title {
+.logo-box {
+  display: flex;
+  justify-content: left;
   margin: 0;
   padding: 0;
+  min-width: 320px;
 }
 
+.logo-link {
+  font-family: Comfortaa;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item,
 .header-nav {
   font-size: 18px;
   line-height: 40px;
   margin: 0;
   padding: 0;
 }
+
 
 .menu {
   display: flex;
@@ -41,37 +53,22 @@ header {
 
 .menu-item {
   display: inline;
-  margin: 0 10px;
-  padding: 0 15px;
-  border-radius: 20px;
+  margin: 0 20px;
+  padding: 0 20px;
+  white-space: nowrap;
+  border-radius: 23px;
+  border-color: white;
+  border-style: solid;
+
 }
 
 .menu-item:hover {
-  background-color: aquamarine;
+  background-color: white;
+  color: rgb(67, 100, 116);
   cursor: pointer;
-  color: rgb(42, 49, 65);
-  transition: background-color 0.5s ease;
-
+  transition: background-color 0.3s ease;
 }
 
-.contact-container {
-  margin: 0;
-  padding: 0 15px;
-  border-radius: 20px;
-  line-height: 40px;
-}
-
-.contact-container:hover {
-  background-color: aquamarine;
-  color: rgb(42, 49, 65);
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-}
-
-.long-bar {
-  margin: 0 100px;
-  padding: 0;
-  background-color: aquamarine;
-  height: 10px;
-  border-radius: 5px;
+.menu-item.space-after {
+  margin-right: 120px;
 }

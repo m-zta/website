@@ -7,19 +7,16 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/general.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Gruppo&family=Righteous&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="site-container">
       <header>
         <div class="wide-container">
-          <div class="site-title">
-            <svg
+          <div class="logo-box">
+            <!-- <svg
               preserveAspectRatio="xMidYMid meet"
               height="100%"
               stroke-miterlimit="10"
@@ -60,25 +57,22 @@
                   vectornator:layerName="Curve 2"
                 />
               </g>
-            </svg>
+            </svg> -->
+            <a class="logo-link" href="https://www.marioknaus.com">Mario Knaus</a>
           </div>
           <nav class="header-nav">
             <ul class="menu">
               <li class="menu-item">About me</li>
               <li class="menu-item">CV</li>
               <li class="menu-item">Projects</li>
-              <li class="menu-item">Pictures</li>
+              <li class="menu-item space-after">Pictures</li>
+              <li class="menu-item">Contact</li>
             </ul>
           </nav>
-          <div class="contact-container">
-            <p>Contact</p>
-          </div>
         </div>
       </header>
 
-      <?php include "./header.php" ?>
-
-      <div class="long-bar"></div>
+      <!-- <div class="long-bar"></div> -->
 
       <main>
         <div class="content-grid">
@@ -128,7 +122,11 @@
         </div>
       </main>
 
-      <footer></footer>
+      <footer>
+        <div>
+          <p>© 2021 Mario Knaus</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
