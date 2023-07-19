@@ -10,28 +10,42 @@ main {
   background-color: rgb(42, 49, 65);
 }
 
+.site-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  padding: 0 80px;
+}
+
+.site-title-bar {
+  height: 2px;
+  width: 40%;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.site-title {
+  font-size: 30px;
+  font-family: "Comfortaa";
+  color: white;
+  text-decoration: none;
+}
+
 .description-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 80px;
-  padding: 40px 80px 40px 80px;
+  padding: 60px 80px;
 }
 
-#first-row {
-  margin-top: 40px;
-}
-
-#last-row {
-  margin-bottom: 40px;
-}
-
-.about-me {
+.about-me-box {
   /* background-color: pink; */
   margin: 0;
   padding: 0;
 }
 
-.about-me-title {
+.about-me-box {
   margin: 20px 0;
   padding: 0;
 }
@@ -39,6 +53,7 @@ main {
 .about-me-text {
   margin: 0;
   padding: 0;
+  line-height: 35px;
 }
 
 .image-box {
