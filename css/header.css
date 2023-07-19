@@ -48,6 +48,7 @@ header {
 }
 
 .menu-item {
+  transition: all 0.3s ease-in-out;
   display: inline;
   margin: 0 10px;
   padding: 0 20px;
@@ -55,14 +56,17 @@ header {
   border-radius: 23px;
   border-color: white;
   border-style: solid;
+  box-shadow: 10px 10px 20px -11px rgba(0, 0, 0, 2.3);
 
 }
 
 .menu-item:hover {
   background-color: white;
   color: rgb(67, 100, 116);
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-shadow: none;
 }
 
 .menu-item.space-after {

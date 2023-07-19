@@ -5,6 +5,7 @@ main {
 }
 
 .main-content {
+  display: grid;
   margin: 0 200px;
   background-color: rgb(42, 49, 65);
 }
@@ -13,7 +14,15 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 80px;
-  padding: 80px 80px 0 80px;
+  padding: 40px 80px 40px 80px;
+}
+
+#first-row {
+  margin-top: 40px;
+}
+
+#last-row {
+  margin-bottom: 40px;
 }
 
 .about-me {
