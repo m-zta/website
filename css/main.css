@@ -67,3 +67,15 @@ main {
   height: auto;
   border-radius: 20px;
 }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+  padding: 0 80px 80px 80px;
+}
+
+.project-box {
+  height: 200px;
+  background-color: rgb(77, 63, 114);
+}
